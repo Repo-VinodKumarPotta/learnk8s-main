@@ -1,0 +1,20 @@
+CONTAINER ID   IMAGE                                 COMMAND                  CREATED         STATUS                      PORTS                                                                                                                                  NAMES
+2f7b10307848   22f5210e1f9b                          "/bin/sh cp /usr/she…"   6 minutes ago   Exited (2) 6 minutes ago                                                                                                                                           thirsty_fermi
+cfd70b78b9ac   22f5210e1f9b                          "/bin/sh"                7 minutes ago   Exited (0) 6 minutes ago                                                                                                                                           epic_chaplygin
+a383b615ee5f   22f5210e1f9b                          "/bin/sh"                4 hours ago     Exited (1) 4 hours ago                                                                                                                                             great_merkle
+befad58a5436   22f5210e1f9b                          "/bin/sh"                5 hours ago     Exited (0) 4 hours ago                                                                                                                                             sad_ganguly
+9998fcfc7fda   22f5210e1f9b                          "/bin/sh"                22 hours ago    Exited (255) 6 hours ago                                                                                                                                           thirsty_stonebraker
+a6cbdc570a63   22f5210e1f9b                          "/bin/sh"                22 hours ago    Exited (1) 22 hours ago                                                                                                                                            eager_aryabhata
+4177f67a5134   22f5210e1f9b                          "/bin/sh"                23 hours ago    Exited (0) 22 hours ago                                                                                                                                            funny_greider
+1065541275b0   22f5210e1f9b                          "/bin/sh"                23 hours ago    Exited (255) 6 hours ago                                                                                                                                           sharp_zhukovsky
+
+
+
+
+docker cp 2f7b10307848:/shell_lib.sh /Users/vinodkumarpotta/Downloads/learnk8s-main/copyfiles/shell_lib.sh
+docker cp 2f7b10307848:/shell-operator /Users/vinodkumarpotta/Downloads/learnk8s-main/copyfiles/shell-operator
+docker cp 2f7b10307848:/bin/kubectl /Users/vinodkumarpotta/Downloads/learnk8s-main/copyfiles/bin/kubectl
+docker cp 2f7b10307848:/usr/bin/jq /Users/vinodkumarpotta/Downloads/learnk8s-main/copyfiles/usr/bin
+docker cp 2f7b10307848:/sbin/tini /Users/vinodkumarpotta/Downloads/learnk8s-main/copyfiles/sbin
+
+
